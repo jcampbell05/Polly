@@ -7,7 +7,7 @@
 
 ## Usage
 
-Just import the umbrealla header somewhere (I reccomend the main.m file) and all polyfills are applied:
+Just import the umbrella header somewhere (I recommend the main.m file) and all polyfills are applied:
 
 ```objective-c
 #import<Polly/Polly-umbrella>
