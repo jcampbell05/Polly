@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 
-#import <Polly/UITraitCollection.h>
+#import <Polly/Polly-umbrella.h>
 
 @interface ViewController ()
 

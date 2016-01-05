@@ -6,7 +6,7 @@
 //
 //
 
-#import "UITraitCollection.h"
+#import "UITraitCollection+ForceTouchCapabilityPolyfill.h"
 
 #import <objc/runtime.h>
 

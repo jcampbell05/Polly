@@ -5,6 +5,8 @@
 //  Created by James Campbell on 05/01/2016.
 //
 //
+// This pollyfill implements the `forceTouchCapability` property for iOS 8.
+// It will of course return UIForceTouchCapabilityUnavailable.
 
 #import <UIKit/UIKit.h>
 

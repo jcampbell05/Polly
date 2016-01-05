@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0E64F49979908AF914B98C559255244D /* Polly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0518F2F35982F4B5741B4BABEBD2 /* Polly-dummy.m */; };
-		27AA963A3896A574F2EF02603FB8B82B /* UITraitCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27AA963A3896A574F2EF02603FB8B82B /* UITraitCollection+ForceTouchCapabilityPolyfill.h in Headers */ = {isa = PBXBuildFile; fileRef = A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection+ForceTouchCapabilityPolyfill.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		333BB96A55A06B6C9340D07669C019CA /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9B1A5AB3DAD13FDCEB60528F049C9C /* JRSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		46069B73B69FFBD000BB19DBDC6746CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
 		488DA39FBB32D57B1F9E17BA3EC9282B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
 		5E130543014F917316525EF829E92279 /* Polly.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A11CF1989C9C76B20171A482A44E818 /* Polly.bundle */; };
 		6E5661925E13A6B4D43A12F8805E27D4 /* JRSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3168E173986ABDC8653062ABF526ECB4 /* JRSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79F803F50546D12EBE7697A608CA109B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
-		85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection.m */; };
+		85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection+ForceTouchCapabilityPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection+ForceTouchCapabilityPolyfill.m */; };
 		9B03B1EE838AAC496F415BF5D23E02F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */; };
 		B627FE5805E32C85D44997ED9A4A4DD0 /* JRSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9025F99F939C0781698B8985790B96D1 /* JRSwizzle-dummy.m */; };
 		B744FC295C0BA3781DA2FAB4CAAE3CEE /* JRSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25B674DF1AB0F05FD9723A679C9E69D /* JRSwizzle.framework */; };
@@ -58,7 +58,7 @@
 
 /* Begin PBXFileReference section */
 		01FE9442CDB94D1E8CF7CFF055193ACC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UITraitCollection.m; sourceTree = "<group>"; };
+		081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection+ForceTouchCapabilityPolyfill.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITraitCollection+ForceTouchCapabilityPolyfill.m"; sourceTree = "<group>"; };
 		0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0CD616E4451F7C45848FA4B36D51E112 /* Pods-Polly_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polly_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0D85A7FF3F680C3187A7464D818EB5EB /* Polly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polly-prefix.pch"; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 		87D6D4029A8B5D007DB934B504ED8AC6 /* Pods-Polly_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Polly_Example.modulemap"; sourceTree = "<group>"; };
 		9025F99F939C0781698B8985790B96D1 /* JRSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle-dummy.m"; sourceTree = "<group>"; };
 		94745B5F19724715238773B2CEB61259 /* Pods-Polly_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polly_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UITraitCollection.h; sourceTree = "<group>"; };
+		A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection+ForceTouchCapabilityPolyfill.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITraitCollection+ForceTouchCapabilityPolyfill.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C25B674DF1AB0F05FD9723A679C9E69D /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C28792562541D40D8FCEF90D96C98E75 /* JRSwizzle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.xcconfig; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 		04C8CD59BCCB0B34389DF1D9BC207606 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection.h */,
-				081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection.m */,
+				A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection+ForceTouchCapabilityPolyfill.h */,
+				081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection+ForceTouchCapabilityPolyfill.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E293E64C2F30854726FFA5DB3A5F2812 /* Polly-umbrella.h in Headers */,
-				27AA963A3896A574F2EF02603FB8B82B /* UITraitCollection.h in Headers */,
+				27AA963A3896A574F2EF02603FB8B82B /* UITraitCollection+ForceTouchCapabilityPolyfill.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,7 +444,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E64F49979908AF914B98C559255244D /* Polly-dummy.m in Sources */,
-				85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection.m in Sources */,
+				85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection+ForceTouchCapabilityPolyfill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
