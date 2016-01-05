@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E64F49979908AF914B98C559255244D /* Polly-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDD0518F2F35982F4B5741B4BABEBD2 /* Polly-dummy.m */; };
+		27AA963A3896A574F2EF02603FB8B82B /* UITraitCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		333BB96A55A06B6C9340D07669C019CA /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9B1A5AB3DAD13FDCEB60528F049C9C /* JRSwizzle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		46069B73B69FFBD000BB19DBDC6746CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
+		488DA39FBB32D57B1F9E17BA3EC9282B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
+		5E130543014F917316525EF829E92279 /* Polly.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A11CF1989C9C76B20171A482A44E818 /* Polly.bundle */; };
+		6E5661925E13A6B4D43A12F8805E27D4 /* JRSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3168E173986ABDC8653062ABF526ECB4 /* JRSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79F803F50546D12EBE7697A608CA109B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
+		85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection.m */; };
+		9B03B1EE838AAC496F415BF5D23E02F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */; };
+		B627FE5805E32C85D44997ED9A4A4DD0 /* JRSwizzle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9025F99F939C0781698B8985790B96D1 /* JRSwizzle-dummy.m */; };
+		B744FC295C0BA3781DA2FAB4CAAE3CEE /* JRSwizzle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25B674DF1AB0F05FD9723A679C9E69D /* JRSwizzle.framework */; };
+		C0F23DEC65983E243D4B43C9359D8FD5 /* Pods-Polly_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0BD39F299929324DDBB6D8A274CC20 /* Pods-Polly_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E293E64C2F30854726FFA5DB3A5F2812 /* Polly-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85128598CF0E6AEEB6A6023466DEAD6F /* Polly-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7B5669F491565BDFE2CDC918145F0B4 /* JRSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AAF80FAA376DDFB5641007B4C12BC6A /* JRSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECE07232958661645FC65ADE29BFA954 /* Pods-Polly_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40EE3EFA17DDC6E20F92EB3FB6859913 /* Pods-Polly_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E57D49A80AA3ED945523A87D35F01F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2561E642E4213F1D1016D85AE89B2449;
+			remoteInfo = "Polly-Polly";
+		};
+		8B8A29402AE22800C4800524B3869089 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99848EDCE506975A9C4DD0C342A8DBEB;
+			remoteInfo = JRSwizzle;
+		};
+		914E5D3C0E6153E17B27DFE1CBA912F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99848EDCE506975A9C4DD0C342A8DBEB;
+			remoteInfo = JRSwizzle;
+		};
+		E508792B1616B527443BD578145ABEB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB85C4BCE33DD40D996B7865C526810D;
+			remoteInfo = Polly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01FE9442CDB94D1E8CF7CFF055193ACC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UITraitCollection.m; sourceTree = "<group>"; };
+		0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0CD616E4451F7C45848FA4B36D51E112 /* Pods-Polly_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polly_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D85A7FF3F680C3187A7464D818EB5EB /* Polly-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polly-prefix.pch"; sourceTree = "<group>"; };
+		1CDD0518F2F35982F4B5741B4BABEBD2 /* Polly-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Polly-dummy.m"; sourceTree = "<group>"; };
+		2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Polly.xcconfig; sourceTree = "<group>"; };
+		2D0BD39F299929324DDBB6D8A274CC20 /* Pods-Polly_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Polly_Example-umbrella.h"; sourceTree = "<group>"; };
+		3168E173986ABDC8653062ABF526ECB4 /* JRSwizzle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-umbrella.h"; sourceTree = "<group>"; };
+		3A11CF1989C9C76B20171A482A44E818 /* Polly.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Polly.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BBD308C95AD0C8A2FE7EF70D744A8A /* Pods-Polly_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Polly_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		40EE3EFA17DDC6E20F92EB3FB6859913 /* Pods-Polly_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Polly_Example-dummy.m"; sourceTree = "<group>"; };
+		4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4C33A23201AD12CB2FABB81E3F46B8AD /* JRSwizzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JRSwizzle.modulemap; sourceTree = "<group>"; };
+		4F87953300F950D91E096B13A6A2584B /* Pods-Polly_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polly_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AAF80FAA376DDFB5641007B4C12BC6A /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		76C3B15EC052C3CF067C20F0D33444FD /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78595B5ECD98B93310473C3BE8923738 /* Pods-Polly_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polly_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8035338BF564DAD1AAAEF8D34C2BA07C /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
+		85128598CF0E6AEEB6A6023466DEAD6F /* Polly-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Polly-umbrella.h"; sourceTree = "<group>"; };
+		860D335E7BEA31FB41D4CF8740AF0095 /* Polly.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Polly.modulemap; sourceTree = "<group>"; };
+		87D6D4029A8B5D007DB934B504ED8AC6 /* Pods-Polly_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Polly_Example.modulemap"; sourceTree = "<group>"; };
+		9025F99F939C0781698B8985790B96D1 /* JRSwizzle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JRSwizzle-dummy.m"; sourceTree = "<group>"; };
+		94745B5F19724715238773B2CEB61259 /* Pods-Polly_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Polly_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UITraitCollection.h; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C25B674DF1AB0F05FD9723A679C9E69D /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28792562541D40D8FCEF90D96C98E75 /* JRSwizzle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JRSwizzle.xcconfig; sourceTree = "<group>"; };
+		CFEE1FE519A74BFA3E1A9E9B18FDA494 /* Polly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Polly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D477E13F48C8E26EC3A58A7564F89738 /* Pods-Polly_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polly_Example-resources.sh"; sourceTree = "<group>"; };
+		E3A8CF56E0F24EB95017ADE06632024D /* Pods_Polly_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Polly_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E494633923CC576B21BFC7E5A19D3752 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49E71896D4B10F720E578860400E993 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA9B1A5AB3DAD13FDCEB60528F049C9C /* JRSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A54E0C8DFA0CD42D643AD348B5ED549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79F803F50546D12EBE7697A608CA109B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73F9C65E87DFC7E9E848BC09F6028B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488DA39FBB32D57B1F9E17BA3EC9282B /* Foundation.framework in Frameworks */,
+				B744FC295C0BA3781DA2FAB4CAAE3CEE /* JRSwizzle.framework in Frameworks */,
+				9B03B1EE838AAC496F415BF5D23E02F2 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8863E8ACC6267BB5475BD952492333CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46069B73B69FFBD000BB19DBDC6746CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5F1F3B035E290D9148F380E85E753E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C8CD59BCCB0B34389DF1D9BC207606 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection.h */,
+				081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0693D222B1680221AE9E59003013706D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E494633923CC576B21BFC7E5A19D3752 /* Info.plist */,
+				4C33A23201AD12CB2FABB81E3F46B8AD /* JRSwizzle.modulemap */,
+				C28792562541D40D8FCEF90D96C98E75 /* JRSwizzle.xcconfig */,
+				9025F99F939C0781698B8985790B96D1 /* JRSwizzle-dummy.m */,
+				8035338BF564DAD1AAAEF8D34C2BA07C /* JRSwizzle-prefix.pch */,
+				3168E173986ABDC8653062ABF526ECB4 /* JRSwizzle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JRSwizzle";
+			sourceTree = "<group>";
+		};
+		07DE0BB32255F6204C59B9E462368B51 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */,
+				0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		16F8CD214FCA9915E12B184639B2698C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C25B674DF1AB0F05FD9723A679C9E69D /* JRSwizzle.framework */,
+				07DE0BB32255F6204C59B9E462368B51 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F9FE982D10DCBF4D92E5FFC91E86B27 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D33D929B3444BDD1293552C7F05B3A5D /* Polly */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		610A1C0A688D127F06510954B29A61D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0B13F936BF0E3C5B41ADDBA6BBA2FB1 /* Pods-Polly_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		64FD08386692DEDC493E4C13C8379395 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				04C8CD59BCCB0B34389DF1D9BC207606 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		745F1C572426B9F80AE1C265EA400C0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5E9A17196E415D5B95204993A06EB02 /* JRSwizzle */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				1F9FE982D10DCBF4D92E5FFC91E86B27 /* Development Pods */,
+				16F8CD214FCA9915E12B184639B2698C /* Frameworks */,
+				745F1C572426B9F80AE1C265EA400C0E /* Pods */,
+				F673AA7F3C763D233AE83AB08368242F /* Products */,
+				610A1C0A688D127F06510954B29A61D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B8E728294BCF3D8BDC7DE783E98E70F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E49E71896D4B10F720E578860400E993 /* Info.plist */,
+				860D335E7BEA31FB41D4CF8740AF0095 /* Polly.modulemap */,
+				2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */,
+				1CDD0518F2F35982F4B5741B4BABEBD2 /* Polly-dummy.m */,
+				0D85A7FF3F680C3187A7464D818EB5EB /* Polly-prefix.pch */,
+				85128598CF0E6AEEB6A6023466DEAD6F /* Polly-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Polly";
+			sourceTree = "<group>";
+		};
+		D0B13F936BF0E3C5B41ADDBA6BBA2FB1 /* Pods-Polly_Example */ = {
+			isa = PBXGroup;
+			children = (
+				01FE9442CDB94D1E8CF7CFF055193ACC /* Info.plist */,
+				87D6D4029A8B5D007DB934B504ED8AC6 /* Pods-Polly_Example.modulemap */,
+				4F87953300F950D91E096B13A6A2584B /* Pods-Polly_Example-acknowledgements.markdown */,
+				40BBD308C95AD0C8A2FE7EF70D744A8A /* Pods-Polly_Example-acknowledgements.plist */,
+				40EE3EFA17DDC6E20F92EB3FB6859913 /* Pods-Polly_Example-dummy.m */,
+				78595B5ECD98B93310473C3BE8923738 /* Pods-Polly_Example-frameworks.sh */,
+				D477E13F48C8E26EC3A58A7564F89738 /* Pods-Polly_Example-resources.sh */,
+				2D0BD39F299929324DDBB6D8A274CC20 /* Pods-Polly_Example-umbrella.h */,
+				0CD616E4451F7C45848FA4B36D51E112 /* Pods-Polly_Example.debug.xcconfig */,
+				94745B5F19724715238773B2CEB61259 /* Pods-Polly_Example.release.xcconfig */,
+			);
+			name = "Pods-Polly_Example";
+			path = "Target Support Files/Pods-Polly_Example";
+			sourceTree = "<group>";
+		};
+		D33D929B3444BDD1293552C7F05B3A5D /* Polly */ = {
+			isa = PBXGroup;
+			children = (
+				64FD08386692DEDC493E4C13C8379395 /* Pod */,
+				B8E728294BCF3D8BDC7DE783E98E70F5 /* Support Files */,
+			);
+			name = Polly;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D5E9A17196E415D5B95204993A06EB02 /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				5AAF80FAA376DDFB5641007B4C12BC6A /* JRSwizzle.h */,
+				FA9B1A5AB3DAD13FDCEB60528F049C9C /* JRSwizzle.m */,
+				0693D222B1680221AE9E59003013706D /* Support Files */,
+			);
+			path = JRSwizzle;
+			sourceTree = "<group>";
+		};
+		F673AA7F3C763D233AE83AB08368242F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76C3B15EC052C3CF067C20F0D33444FD /* JRSwizzle.framework */,
+				E3A8CF56E0F24EB95017ADE06632024D /* Pods_Polly_Example.framework */,
+				3A11CF1989C9C76B20171A482A44E818 /* Polly.bundle */,
+				CFEE1FE519A74BFA3E1A9E9B18FDA494 /* Polly.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		150EB485E24C5C36FAF799E4EBBA6821 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F23DEC65983E243D4B43C9359D8FD5 /* Pods-Polly_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18912304757ED8119B3B002CCE01882A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5661925E13A6B4D43A12F8805E27D4 /* JRSwizzle-umbrella.h in Headers */,
+				E7B5669F491565BDFE2CDC918145F0B4 /* JRSwizzle.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C65323A099F3B5174E748C4D15BF3E63 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E293E64C2F30854726FFA5DB3A5F2812 /* Polly-umbrella.h in Headers */,
+				27AA963A3896A574F2EF02603FB8B82B /* UITraitCollection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2561E642E4213F1D1016D85AE89B2449 /* Polly-Polly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880B58E8D97777D99DF3B570EE4B0E95 /* Build configuration list for PBXNativeTarget "Polly-Polly" */;
+			buildPhases = (
+				834C1B4DD630CCB63B6A41E4C28FE382 /* Sources */,
+				A5F1F3B035E290D9148F380E85E753E2 /* Frameworks */,
+				D78279EA2B6B0436160FF12A651394ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polly-Polly";
+			productName = "Polly-Polly";
+			productReference = 3A11CF1989C9C76B20171A482A44E818 /* Polly.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		87873219E0EA2713B6475B4EE7F763C1 /* Pods-Polly_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C4CC76755D7983CE5282B0DCB1CDC4 /* Build configuration list for PBXNativeTarget "Pods-Polly_Example" */;
+			buildPhases = (
+				662DB970A885DF6165251B2C8946C3B7 /* Sources */,
+				8863E8ACC6267BB5475BD952492333CF /* Frameworks */,
+				150EB485E24C5C36FAF799E4EBBA6821 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19FF5E5CB21A6A4FA1F1DF6C77281918 /* PBXTargetDependency */,
+				29A7D7D0E42AEE59A6B4C49FFC9E4F86 /* PBXTargetDependency */,
+			);
+			name = "Pods-Polly_Example";
+			productName = "Pods-Polly_Example";
+			productReference = E3A8CF56E0F24EB95017ADE06632024D /* Pods_Polly_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99848EDCE506975A9C4DD0C342A8DBEB /* JRSwizzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0EB9C1296361E0BEB6BCB231FE9CDAD /* Build configuration list for PBXNativeTarget "JRSwizzle" */;
+			buildPhases = (
+				EB60AA75CF38CD6B93356C37C2E2EA94 /* Sources */,
+				6A54E0C8DFA0CD42D643AD348B5ED549 /* Frameworks */,
+				18912304757ED8119B3B002CCE01882A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRSwizzle;
+			productName = JRSwizzle;
+			productReference = 76C3B15EC052C3CF067C20F0D33444FD /* JRSwizzle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB85C4BCE33DD40D996B7865C526810D /* Polly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D13604FDC2B5A69FFA55414DFB1965A /* Build configuration list for PBXNativeTarget "Polly" */;
+			buildPhases = (
+				7BC8E10585B0ECAED446E4E67816EB96 /* Sources */,
+				73F9C65E87DFC7E9E848BC09F6028B9A /* Frameworks */,
+				850C2CF03B5A455368857DD013E8AA1E /* Resources */,
+				C65323A099F3B5174E748C4D15BF3E63 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D31E66D83D83ED304B0FBAEBD524188 /* PBXTargetDependency */,
+				EB6846949B230069E7EEB8E6A41D8934 /* PBXTargetDependency */,
+			);
+			name = Polly;
+			productName = Polly;
+			productReference = CFEE1FE519A74BFA3E1A9E9B18FDA494 /* Polly.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F673AA7F3C763D233AE83AB08368242F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99848EDCE506975A9C4DD0C342A8DBEB /* JRSwizzle */,
+				87873219E0EA2713B6475B4EE7F763C1 /* Pods-Polly_Example */,
+				FB85C4BCE33DD40D996B7865C526810D /* Polly */,
+				2561E642E4213F1D1016D85AE89B2449 /* Polly-Polly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		850C2CF03B5A455368857DD013E8AA1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E130543014F917316525EF829E92279 /* Polly.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D78279EA2B6B0436160FF12A651394ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662DB970A885DF6165251B2C8946C3B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE07232958661645FC65ADE29BFA954 /* Pods-Polly_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC8E10585B0ECAED446E4E67816EB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E64F49979908AF914B98C559255244D /* Polly-dummy.m in Sources */,
+				85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		834C1B4DD630CCB63B6A41E4C28FE382 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB60AA75CF38CD6B93356C37C2E2EA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B627FE5805E32C85D44997ED9A4A4DD0 /* JRSwizzle-dummy.m in Sources */,
+				333BB96A55A06B6C9340D07669C019CA /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19FF5E5CB21A6A4FA1F1DF6C77281918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRSwizzle;
+			target = 99848EDCE506975A9C4DD0C342A8DBEB /* JRSwizzle */;
+			targetProxy = 8B8A29402AE22800C4800524B3869089 /* PBXContainerItemProxy */;
+		};
+		29A7D7D0E42AEE59A6B4C49FFC9E4F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Polly;
+			target = FB85C4BCE33DD40D996B7865C526810D /* Polly */;
+			targetProxy = E508792B1616B527443BD578145ABEB9 /* PBXContainerItemProxy */;
+		};
+		5D31E66D83D83ED304B0FBAEBD524188 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JRSwizzle;
+			target = 99848EDCE506975A9C4DD0C342A8DBEB /* JRSwizzle */;
+			targetProxy = 914E5D3C0E6153E17B27DFE1CBA912F4 /* PBXContainerItemProxy */;
+		};
+		EB6846949B230069E7EEB8E6A41D8934 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Polly-Polly";
+			target = 2561E642E4213F1D1016D85AE89B2449 /* Polly-Polly */;
+			targetProxy = 1E57D49A80AA3ED945523A87D35F01F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26C296328D2ED1E228FBD735DF3B9EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CD616E4451F7C45848FA4B36D51E112 /* Pods-Polly_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Polly_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Polly_Example/Pods-Polly_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Polly_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		814CC635D1B583CED2FA1EAE2B2CF488 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94745B5F19724715238773B2CEB61259 /* Pods-Polly_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Polly_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Polly_Example/Pods-Polly_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Polly_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		882EB059983A370FD955D5864FCE6ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28792562541D40D8FCEF90D96C98E75 /* JRSwizzle.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRSwizzle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JRSwizzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9ACA5362C91033E96A185FD09F50FFEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polly/Polly-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polly/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polly/Polly.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Polly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0F24B7B70E01C16895AE2F9D39F1CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Polly/Polly-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Polly/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Polly/Polly.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Polly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CF182CD2728E92E3D0A46A066719DB23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Polly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D00EB43AACB1300EBD0E42D354E654F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C28792562541D40D8FCEF90D96C98E75 /* JRSwizzle.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JRSwizzle/JRSwizzle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JRSwizzle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JRSwizzle/JRSwizzle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JRSwizzle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F40D48A231C24D11C0CA76920514BFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Polly;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D13604FDC2B5A69FFA55414DFB1965A /* Build configuration list for PBXNativeTarget "Polly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ACA5362C91033E96A185FD09F50FFEC /* Debug */,
+				C0F24B7B70E01C16895AE2F9D39F1CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C4CC76755D7983CE5282B0DCB1CDC4 /* Build configuration list for PBXNativeTarget "Pods-Polly_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26C296328D2ED1E228FBD735DF3B9EFA /* Debug */,
+				814CC635D1B583CED2FA1EAE2B2CF488 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880B58E8D97777D99DF3B570EE4B0E95 /* Build configuration list for PBXNativeTarget "Polly-Polly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40D48A231C24D11C0CA76920514BFCC /* Debug */,
+				CF182CD2728E92E3D0A46A066719DB23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0EB9C1296361E0BEB6BCB231FE9CDAD /* Build configuration list for PBXNativeTarget "JRSwizzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882EB059983A370FD955D5864FCE6ACF /* Debug */,
+				D00EB43AACB1300EBD0E42D354E654F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

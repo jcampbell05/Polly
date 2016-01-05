@@ -1,0 +1,17 @@
+PODS:
+  - JRSwizzle (1.0)
+  - Polly (0.1.0):
+    - JRSwizzle
+
+DEPENDENCIES:
+  - Polly (from `../`)
+
+EXTERNAL SOURCES:
+  Polly:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  Polly: 29e7710aed2f53fecf9f7c9a56a3b3a059784c49
+
+COCOAPODS: 0.39.0

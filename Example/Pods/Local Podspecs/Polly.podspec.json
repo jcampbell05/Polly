@@ -1,0 +1,31 @@
+{
+  "name": "Polly",
+  "version": "0.1.0",
+  "summary": "A short description of Polly.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Polly",
+  "license": "MIT",
+  "authors": {
+    "James Campbell": "james@supmenow.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Polly.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "Polly": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "frameworks": "UIKit",
+  "dependencies": {
+    "JRSwizzle": [
+
+    ]
+  }
+}

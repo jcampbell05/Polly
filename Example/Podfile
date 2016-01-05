@@ -4,10 +4,3 @@ use_frameworks!
 target 'Polly_Example', :exclusive => true do
   pod "Polly", :path => "../"
 end
-
-target 'Polly_Tests', :exclusive => true do
-  pod "Polly", :path => "../"
-
-  pod 'Quick', '~> 0.8.0'
-  pod 'Nimble', '3.0.0'
-end

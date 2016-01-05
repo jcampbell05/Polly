@@ -1,0 +1,6 @@
+framework module Polly {
+  umbrella header "Polly-umbrella.h"
+
+  export *
+  module * { export * }
+}
