@@ -47,7 +47,14 @@ UIForceTouchCapability polly_forceTouchCapability (id self, SEL _cmd)
 
 - (UIForceTouchCapability)polly_forceTouchCapability
 {
-    return polly_forceTouchCapability(self, @selector(forceTouchCapability));
+    if (NSFoundationVersionNumber <= NSFoundationVersionNumber_iOS_8_4)
+    {
+        return polly_forceTouchCapability(self, @selector(forceTouchCapability));
+    }
+    else
+    {
+        return self.forceTouchCapability;
+    }
 }
 
 @end
