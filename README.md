@@ -7,7 +7,16 @@
 
 ## Usage
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Just import the umbrealla header somewhere (I reccomend the main.m file) and all polyfills are applied:
+
+```objective-c
+#import<Polly/Polly-umbrella>
+```
+
+##Polyfills
+
+- UITraitCollection.forceTouchCapability : On iOS 8 this property is implemented and returns `UIForceTouchCapabilityUnavailable`. If you want to use the polyfill in swift then we expose a `polly_forceTouchCapability` property.
+
 
 ## Requirements
 
