@@ -9,17 +9,15 @@
 Pod::Spec.new do |s|
   s.name             = "Polly"
   s.version          = "0.1.0"
-  s.summary          = "A short description of Polly."
+  s.summary          = "Polyfills for iOS."
 
-  s.description      = <<-DESC
-    Polyfills for iOS
-                       DESC
+  s.description      = "Polyfills for iOS"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Polly"
+  s.homepage         = "https://github.com/jcampbell05/Polly"
   s.license          = 'MIT'
   s.author           = { "James Campbell" => "james@supmenow.com" }
-  s.source           = { :git => "https://github.com/jscampbell05/Polly.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/jcampbell_05"
+  s.source           = { :git => "https://github.com/jcampbell05/Polly.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/jcampbell_05'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
