@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "James Campbell" => "james@supmenow.com" }
   s.source           = { :git => "https://github.com/jscampbell05/Polly.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/jcampbell_05
+  s.social_media_url = 'https://twitter.com/jcampbell_05"
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
