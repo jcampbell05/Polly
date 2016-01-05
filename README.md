@@ -1,5 +1,7 @@
 # Polly
 
+Polyfills for iOS.
+
 [![CI Status](http://img.shields.io/travis/James Campbell/Polly.svg?style=flat)](https://travis-ci.org/James Campbell/Polly)
 [![Version](https://img.shields.io/cocoapods/v/Polly.svg?style=flat)](http://cocoapods.org/pods/Polly)
 [![License](https://img.shields.io/cocoapods/l/Polly.svg?style=flat)](http://cocoapods.org/pods/Polly)
