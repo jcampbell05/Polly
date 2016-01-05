@@ -45,4 +45,9 @@ UIForceTouchCapability polly_forceTouchCapability (id self, SEL _cmd)
     }
 }
 
+- (UIForceTouchCapability)polly_forceTouchCapability
+{
+    return polly_forceTouchCapability(self, @selector(forceTouchCapability));
+}
+
 @end

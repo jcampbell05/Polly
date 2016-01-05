@@ -26,3 +26,9 @@ typedef NS_ENUM(NSInteger, UIForceTouchCapability) {
 
 #endif
 #endif
+
+@interface UITraitCollection (ForceTouchCapabilityPolyfill)
+
+@property(nonatomic, readonly) UIForceTouchCapability polly_forceTouchCapability;
+
+@end
