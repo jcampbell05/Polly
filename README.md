@@ -19,7 +19,7 @@ Just import the umbrella header somewhere (I recommend the main.m file) and all 
 
 - UITraitCollection.forceTouchCapability : On iOS 8 this property is implemented and returns `UIForceTouchCapabilityUnavailable`. If you want to use the polyfill in swift then we expose a `polly_forceTouchCapability` property.
 
-- CLLocationManager.requestLocation : On iOS 8 this method is implemented and replectes perfoming a single location update like it's iOS 9 counterpart. If you want to use the polyfill in swift then we expose a `polly_requestLocation` method.
+- CLLocationManager.requestLocation : On iOS 8 this method is implemented and replecates perfoming a single location update like it's iOS 9 counterpart. If you want to use the polyfill in swift then we expose a `polly_requestLocation` method.
 
 ## Requirements
 
