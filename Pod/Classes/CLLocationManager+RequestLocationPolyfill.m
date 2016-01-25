@@ -48,7 +48,14 @@ void polly_requestLocation(id self, SEL _cmd)
 
 - (void)polly_requestLocation
 {
-    polly_requestLocation(self, @selector(requestLocation));
+    if (NSFoundationVersionNumber <= NSFoundationVersionNumber_iOS_8_4)
+    {
+        polly_requestLocation(self, @selector(requestLocation));
+    }
+    else
+    {
+        [self requestLocation];
+    }
 }
 
 @end
