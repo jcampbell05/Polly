@@ -11,7 +11,7 @@
 #import <Polly/Polly-umbrella.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface ViewController () <CLLocationManagerDelegate>
+@interface ViewController () <CLLocationManagerDelegate, UIViewControllerPreviewingDelegate>
 
 @property (nonatomic, strong) CLLocationManager *locationManager;
 
@@ -34,6 +34,9 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    
+    [self registerForPreviewingWithDelegate:self
+                                 sourceView:self.view];
     
     if (self.traitCollection.forceTouchCapability == UIForceTouchCapabilityAvailable)
     {
@@ -59,5 +62,7 @@
 {
     NSLog(@"Did fail to update location: %@", error);
 }
+
+#pragma mark - <UIViewControllerPreviewingDelegate>
 
 @end

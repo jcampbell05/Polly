@@ -19,6 +19,11 @@
 		74EDB0DD1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */; };
 		74EDB0DE1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */; };
 		74EDB0DF1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */; };
+		74EDB0E21C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB0E01C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h */; };
+		74EDB0E31C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB0E01C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h */; };
+		74EDB0E41C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0E11C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m */; };
+		74EDB0E51C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0E11C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m */; };
+		74EDB0E61C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0E11C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m */; };
 		79F803F50546D12EBE7697A608CA109B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
 		85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection+ForceTouchCapabilityPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection+ForceTouchCapabilityPolyfill.m */; };
 		9B03B1EE838AAC496F415BF5D23E02F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */; };
@@ -80,6 +85,8 @@
 		5AAF80FAA376DDFB5641007B4C12BC6A /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
 		74EDB0D91C5626F700E42C27 /* CLLocationManager+RequestLocationPolyfill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+RequestLocationPolyfill.h"; sourceTree = "<group>"; };
 		74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+RequestLocationPolyfill.m"; sourceTree = "<group>"; };
+		74EDB0E01C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RegisterForPreviewingWithDelegatePolyfill.h"; sourceTree = "<group>"; };
+		74EDB0E11C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RegisterForPreviewingWithDelegatePolyfill.m"; sourceTree = "<group>"; };
 		76C3B15EC052C3CF067C20F0D33444FD /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78595B5ECD98B93310473C3BE8923738 /* Pods-Polly_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polly_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8035338BF564DAD1AAAEF8D34C2BA07C /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
@@ -144,6 +151,8 @@
 				081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection+ForceTouchCapabilityPolyfill.m */,
 				74EDB0D91C5626F700E42C27 /* CLLocationManager+RequestLocationPolyfill.h */,
 				74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */,
+				74EDB0E01C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h */,
+				74EDB0E11C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -295,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74EDB0DB1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.h in Headers */,
+				74EDB0E21C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h in Headers */,
 				C0F23DEC65983E243D4B43C9359D8FD5 /* Pods-Polly_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +322,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74EDB0E31C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h in Headers */,
 				E293E64C2F30854726FFA5DB3A5F2812 /* Polly-umbrella.h in Headers */,
 				27AA963A3896A574F2EF02603FB8B82B /* UITraitCollection+ForceTouchCapabilityPolyfill.h in Headers */,
 				74EDB0DC1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.h in Headers */,
@@ -448,6 +459,7 @@
 			files = (
 				ECE07232958661645FC65ADE29BFA954 /* Pods-Polly_Example-dummy.m in Sources */,
 				74EDB0DD1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */,
+				74EDB0E41C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E64F49979908AF914B98C559255244D /* Polly-dummy.m in Sources */,
+				74EDB0E51C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */,
 				85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection+ForceTouchCapabilityPolyfill.m in Sources */,
 				74EDB0DE1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */,
 			);
@@ -466,6 +479,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74EDB0DF1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */,
+				74EDB0E61C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

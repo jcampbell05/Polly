@@ -21,6 +21,8 @@ Just import the umbrella header somewhere (I recommend the main.m file) and all 
 
 - CLLocationManager.requestLocation : On iOS 8 this method is implemented and replicates perfoming a single location update like it's iOS 9 counterpart. If you want to use the polyfill in swift then we expose a `polly_requestLocation` method.
 
+- UIViewController.registerForPreviewingWithDelegate:SourceView : On iOS 8 this method is just a Nop to allow you to keep your code clean. If you want to use the polyfill in swift then we expose a `polly_registerForPreviewingWithDelegate:SourceView` method.
+
 ## Requirements
 
 ## Installation

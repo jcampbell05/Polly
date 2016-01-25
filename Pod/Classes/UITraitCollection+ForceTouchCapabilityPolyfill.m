@@ -42,6 +42,10 @@ UIForceTouchCapability polly_forceTouchCapability (id self, SEL _cmd)
         {
             NSLog(@"Couldn't install force touch capability polyfill");
         }
+        else
+        {
+            NSLog(@"Installed force touch capability polyfill");
+        }
     }
 }
 

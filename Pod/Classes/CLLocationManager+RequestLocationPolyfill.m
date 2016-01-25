@@ -38,10 +38,13 @@ void polly_requestLocation(id self, SEL _cmd)
                                        (IMP)polly_requestLocation,
                                        @encode(void));
         
-        
         if (!success)
         {
             NSLog(@"Couldn't install request location polyfill");
+        }
+        else
+        {
+            NSLog(@"Installed request location polyfill");
         }
     }
 }
