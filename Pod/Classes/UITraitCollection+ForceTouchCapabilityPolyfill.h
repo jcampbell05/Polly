@@ -1,5 +1,5 @@
 //
-//  UITraitCollection.h
+//  UITraitCollection+ForceTouchCapabilityPolyfill.h
 //  Pods
 //
 //  Created by James Campbell on 05/01/2016.

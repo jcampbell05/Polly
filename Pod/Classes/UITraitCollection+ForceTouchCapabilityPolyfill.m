@@ -1,5 +1,5 @@
 //
-//  UITraitCollection.m
+//  UITraitCollection+ForceTouchCapabilityPolyfill.m
 //  Pods
 //
 //  Created by James Campbell on 05/01/2016.
@@ -28,8 +28,8 @@ UIForceTouchCapability polly_forceTouchCapability (id self, SEL _cmd)
 
 @implementation UITraitCollection (ForceTouchCapabilityPolyfill)
 
-+ (void)load {
-    
++ (void)load
+{    
     if (NSFoundationVersionNumber <= NSFoundationVersionNumber_iOS_8_4)
     {
         BOOL success = class_addMethod(self.class,

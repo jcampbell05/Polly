@@ -14,6 +14,11 @@
 		488DA39FBB32D57B1F9E17BA3EC9282B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
 		5E130543014F917316525EF829E92279 /* Polly.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A11CF1989C9C76B20171A482A44E818 /* Polly.bundle */; };
 		6E5661925E13A6B4D43A12F8805E27D4 /* JRSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3168E173986ABDC8653062ABF526ECB4 /* JRSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74EDB0DB1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB0D91C5626F700E42C27 /* CLLocationManager+RequestLocationPolyfill.h */; };
+		74EDB0DC1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB0D91C5626F700E42C27 /* CLLocationManager+RequestLocationPolyfill.h */; };
+		74EDB0DD1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */; };
+		74EDB0DE1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */; };
+		74EDB0DF1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */; };
 		79F803F50546D12EBE7697A608CA109B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
 		85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection+ForceTouchCapabilityPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection+ForceTouchCapabilityPolyfill.m */; };
 		9B03B1EE838AAC496F415BF5D23E02F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC35859AC2541FBB186B2BD422723E0 /* UIKit.framework */; };
@@ -73,6 +78,8 @@
 		4C33A23201AD12CB2FABB81E3F46B8AD /* JRSwizzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JRSwizzle.modulemap; sourceTree = "<group>"; };
 		4F87953300F950D91E096B13A6A2584B /* Pods-Polly_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polly_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5AAF80FAA376DDFB5641007B4C12BC6A /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		74EDB0D91C5626F700E42C27 /* CLLocationManager+RequestLocationPolyfill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+RequestLocationPolyfill.h"; sourceTree = "<group>"; };
+		74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+RequestLocationPolyfill.m"; sourceTree = "<group>"; };
 		76C3B15EC052C3CF067C20F0D33444FD /* JRSwizzle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JRSwizzle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78595B5ECD98B93310473C3BE8923738 /* Pods-Polly_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Polly_Example-frameworks.sh"; sourceTree = "<group>"; };
 		8035338BF564DAD1AAAEF8D34C2BA07C /* JRSwizzle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JRSwizzle-prefix.pch"; sourceTree = "<group>"; };
@@ -135,6 +142,8 @@
 			children = (
 				A6246617B4459D6F90125EC7DAABA88A /* UITraitCollection+ForceTouchCapabilityPolyfill.h */,
 				081B5A1CA83596CEAD537374882F9F71 /* UITraitCollection+ForceTouchCapabilityPolyfill.m */,
+				74EDB0D91C5626F700E42C27 /* CLLocationManager+RequestLocationPolyfill.h */,
+				74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -285,6 +294,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74EDB0DB1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.h in Headers */,
 				C0F23DEC65983E243D4B43C9359D8FD5 /* Pods-Polly_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +314,7 @@
 			files = (
 				E293E64C2F30854726FFA5DB3A5F2812 /* Polly-umbrella.h in Headers */,
 				27AA963A3896A574F2EF02603FB8B82B /* UITraitCollection+ForceTouchCapabilityPolyfill.h in Headers */,
+				74EDB0DC1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +447,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE07232958661645FC65ADE29BFA954 /* Pods-Polly_Example-dummy.m in Sources */,
+				74EDB0DD1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +457,7 @@
 			files = (
 				0E64F49979908AF914B98C559255244D /* Polly-dummy.m in Sources */,
 				85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection+ForceTouchCapabilityPolyfill.m in Sources */,
+				74EDB0DE1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74EDB0DF1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
