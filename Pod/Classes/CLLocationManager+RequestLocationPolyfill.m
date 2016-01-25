@@ -23,7 +23,8 @@
 
 void polly_requestLocation(id self, SEL _cmd)
 {
-    //Do something
+    [self startMonitoring];
+    [self stopMonitoring];
 }
 
 @implementation CLLocationManager (RequestLocationPolyfill)
