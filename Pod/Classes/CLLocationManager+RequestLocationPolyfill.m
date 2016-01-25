@@ -41,7 +41,7 @@ void polly_requestLocation(id self, SEL _cmd)
         
         if (!success)
         {
-            NSLog(@"Couldn't install force touch capability polyfill");
+            NSLog(@"Couldn't install request location polyfill");
         }
     }
 }
