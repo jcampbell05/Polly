@@ -8,10 +8,12 @@
 
 #import "ViewController.h"
 
-
 #import <Polly/Polly-umbrella.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController ()
+@interface ViewController () <CLLocationManagerDelegate>
+
+@property (nonatomic, strong) CLLocationManager *locationManager;
 
 @end
 
@@ -19,7 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.locationManager = [[CLLocationManager alloc] init];
+    self.locationManager.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,6 +43,21 @@
     {
         NSLog(@"No Force Touch Unavaliable");
     }
+    
+    [self.locationManager requestLocation];
+}
+
+#pragma mark - <CLLocationManagerDelegate>
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations
+{
+    //This may fire up to 3 times per request as iOS recieves more accurate location.
+    NSLog(@"Location Updated");
+}
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error
+{
+    NSLog(@"Did fail to update location: %@", error);
 }
 
 @end
