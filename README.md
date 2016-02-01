@@ -23,6 +23,8 @@ Just import the umbrella header somewhere (I recommend the main.m file) and all 
 
 - UIViewController.registerForPreviewingWithDelegate:SourceView : On iOS 8 this method is just a Nop to allow you to keep your code clean. If you want to use the polyfill in swift then we expose a `polly_registerForPreviewingWithDelegate:SourceView` method.
 
+- UIViewControllerPreviewing : We provide polly prefixed properties to allow you to interact with this protocol without use of the `#avaliable` macro. Promoting cleaner code.
+
 ## Requirements
 
 ## Installation

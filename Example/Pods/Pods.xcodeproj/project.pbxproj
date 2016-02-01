@@ -14,14 +14,13 @@
 		488DA39FBB32D57B1F9E17BA3EC9282B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
 		5E130543014F917316525EF829E92279 /* Polly.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A11CF1989C9C76B20171A482A44E818 /* Polly.bundle */; };
 		6E5661925E13A6B4D43A12F8805E27D4 /* JRSwizzle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3168E173986ABDC8653062ABF526ECB4 /* JRSwizzle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CF3B201C5F7EB400CA9158 /* UIViewControllerPreviewing+iOS8Polyfill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CF3B1E1C5F7EB400CA9158 /* UIViewControllerPreviewing+iOS8Polyfill.swift */; };
 		74EDB0DB1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB0D91C5626F700E42C27 /* CLLocationManager+RequestLocationPolyfill.h */; };
 		74EDB0DC1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB0D91C5626F700E42C27 /* CLLocationManager+RequestLocationPolyfill.h */; };
-		74EDB0DD1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */; };
 		74EDB0DE1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */; };
 		74EDB0DF1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */; };
 		74EDB0E21C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB0E01C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h */; };
 		74EDB0E31C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h in Headers */ = {isa = PBXBuildFile; fileRef = 74EDB0E01C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h */; };
-		74EDB0E41C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0E11C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m */; };
 		74EDB0E51C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0E11C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m */; };
 		74EDB0E61C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EDB0E11C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m */; };
 		79F803F50546D12EBE7697A608CA109B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD8DD00760D6EBF47DA0F5D442B8D7A /* Foundation.framework */; };
@@ -83,6 +82,7 @@
 		4C33A23201AD12CB2FABB81E3F46B8AD /* JRSwizzle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JRSwizzle.modulemap; sourceTree = "<group>"; };
 		4F87953300F950D91E096B13A6A2584B /* Pods-Polly_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Polly_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5AAF80FAA376DDFB5641007B4C12BC6A /* JRSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		74CF3B1E1C5F7EB400CA9158 /* UIViewControllerPreviewing+iOS8Polyfill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewControllerPreviewing+iOS8Polyfill.swift"; sourceTree = "<group>"; };
 		74EDB0D91C5626F700E42C27 /* CLLocationManager+RequestLocationPolyfill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocationManager+RequestLocationPolyfill.h"; sourceTree = "<group>"; };
 		74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocationManager+RequestLocationPolyfill.m"; sourceTree = "<group>"; };
 		74EDB0E01C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RegisterForPreviewingWithDelegatePolyfill.h"; sourceTree = "<group>"; };
@@ -153,6 +153,7 @@
 				74EDB0DA1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m */,
 				74EDB0E01C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.h */,
 				74EDB0E11C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m */,
+				74CF3B1E1C5F7EB400CA9158 /* UIViewControllerPreviewing+iOS8Polyfill.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -411,7 +412,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -458,8 +459,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECE07232958661645FC65ADE29BFA954 /* Pods-Polly_Example-dummy.m in Sources */,
-				74EDB0DD1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */,
-				74EDB0E41C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +467,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E64F49979908AF914B98C559255244D /* Polly-dummy.m in Sources */,
+				74CF3B201C5F7EB400CA9158 /* UIViewControllerPreviewing+iOS8Polyfill.swift in Sources */,
 				74EDB0E51C56310900E42C27 /* UIViewController+RegisterForPreviewingWithDelegatePolyfill.m in Sources */,
 				85FCD33BC1BF3C7B3BB6B9367D55730A /* UITraitCollection+ForceTouchCapabilityPolyfill.m in Sources */,
 				74EDB0DE1C5626F800E42C27 /* CLLocationManager+RequestLocationPolyfill.m in Sources */,
@@ -560,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0CD616E4451F7C45848FA4B36D51E112 /* Pods-Polly_Example.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -580,6 +581,7 @@
 				PRODUCT_NAME = Pods_Polly_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -629,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 94745B5F19724715238773B2CEB61259 /* Pods-Polly_Example.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -686,6 +689,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -703,6 +707,7 @@
 				PRODUCT_NAME = Polly;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -713,6 +718,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -740,7 +746,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = Polly;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -779,10 +787,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2236418B7CCDD522353714BA8A05360C /* Polly.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = Polly;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;

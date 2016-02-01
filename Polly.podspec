@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Polly"
-  s.version          = "0.3.0"
+  s.version          = "0.4.0"
   s.summary          = "Polyfills for iOS."
 
   s.description      = "Polyfills for iOS."
