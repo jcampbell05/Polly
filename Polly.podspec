@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.version          = "0.4.1"
   s.summary          = "Polyfills for iOS."
 
-  s.description      = "Polyfills for iOS."
+  s.description      = "Polyfills for iOS to make things easier."
 
   s.homepage         = "https://github.com/jcampbell05/Polly"
   s.license          = 'MIT'
