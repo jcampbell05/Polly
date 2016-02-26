@@ -21,10 +21,10 @@
 #endif
 #endif
 
-void polly_requestLocation(id self, SEL _cmd)
+void polly_requestLocation(CLLocationManager * self, SEL _cmd)
 {
-    [self startMonitoring];
-    [self stopMonitoring];
+    [self startUpdatingLocation];
+    [self stopUpdatingLocation];
 }
 
 @implementation CLLocationManager (RequestLocationPolyfill)
