@@ -10,6 +10,8 @@
 
 #import <objc/runtime.h>
 
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+
 //For iPhone 8.0 SDK
 #ifndef __IPHONE_9_0
 #ifdef __IPHONE_8_0
@@ -30,7 +32,7 @@ UIForceTouchCapability polly_forceTouchCapability (id self, SEL _cmd)
 
 + (void)load
 {    
-    if (NSFoundationVersionNumber <= NSFoundationVersionNumber_iOS_8_4)
+    if (NSFoundationVersionNumber <= SYSTEM_VERSION_LESS_THAN(@"9.0"))
     {
         BOOL success = class_addMethod(self.class,
                                        @selector(forceTouchCapability),
@@ -51,7 +53,7 @@ UIForceTouchCapability polly_forceTouchCapability (id self, SEL _cmd)
 
 - (UIForceTouchCapability)polly_forceTouchCapability
 {
-    if (NSFoundationVersionNumber <= NSFoundationVersionNumber_iOS_8_4)
+    if (NSFoundationVersionNumber <= SYSTEM_VERSION_LESS_THAN(@"9.0"))
     {
         return polly_forceTouchCapability(self, @selector(forceTouchCapability));
     }
