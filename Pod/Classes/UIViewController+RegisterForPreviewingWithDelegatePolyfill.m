@@ -9,6 +9,7 @@
 #import "UIViewController+RegisterForPreviewingWithDelegatePolyfill.h"
 
 #import <objc/runtime.h>
+#import <UIKit/UIKit.h>
 
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 
@@ -33,7 +34,7 @@ id <UIViewControllerPreviewing> polly_registerForPreviewingWithDelegatePolyfill(
 
 + (void)load
 {
-    if (NSFoundationVersionNumber <= SYSTEM_VERSION_LESS_THAN(@"9.0"))
+    if (SYSTEM_VERSION_LESS_THAN(@"9.0"))
     {
         BOOL success = class_addMethod(self.class,
                                        @selector(registerForPreviewingWithDelegate:sourceView:),
@@ -54,7 +55,7 @@ id <UIViewControllerPreviewing> polly_registerForPreviewingWithDelegatePolyfill(
 
 - (id <UIViewControllerPreviewing>)polly_registerForPreviewingWithDelegate:(id<UIViewControllerPreviewingDelegate>)delegate sourceView:(UIView *)sourceView
 {
-    if (NSFoundationVersionNumber <= SYSTEM_VERSION_LESS_THAN(@"9.0"))
+    if (SYSTEM_VERSION_LESS_THAN(@"9.0"))
     {
         return polly_registerForPreviewingWithDelegatePolyfill(self, @selector(polly_registerForPreviewingWithDelegate:sourceView:), delegate, sourceView);
     }

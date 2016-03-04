@@ -9,6 +9,7 @@
 #import "CLLocationManager+RequestLocationPolyfill.h"
 
 #import <objc/runtime.h>
+#import <UIKit/UIKit.h>
 
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 
@@ -33,7 +34,7 @@ void polly_requestLocation(CLLocationManager * self, SEL _cmd)
 
 + (void)load
 {    
-    if (NSFoundationVersionNumber <= SYSTEM_VERSION_LESS_THAN(@"9.0"))
+    if (SYSTEM_VERSION_LESS_THAN(@"9.0"))
     {
         BOOL success = class_addMethod(self.class,
                                        @selector(requestLocation),
@@ -53,7 +54,7 @@ void polly_requestLocation(CLLocationManager * self, SEL _cmd)
 
 - (void)polly_requestLocation
 {
-    if (NSFoundationVersionNumber <= SYSTEM_VERSION_LESS_THAN(@"9.0"))
+    if (SYSTEM_VERSION_LESS_THAN(@"9.0"))
     {
         polly_requestLocation(self, @selector(requestLocation));
     }

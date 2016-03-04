@@ -9,6 +9,7 @@
 #import "UITraitCollection+ForceTouchCapabilityPolyfill.h"
 
 #import <objc/runtime.h>
+#import <UIKit/UIKit.h>
 
 #define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
 
@@ -32,7 +33,7 @@ UIForceTouchCapability polly_forceTouchCapability (id self, SEL _cmd)
 
 + (void)load
 {    
-    if (NSFoundationVersionNumber <= SYSTEM_VERSION_LESS_THAN(@"9.0"))
+    if (SYSTEM_VERSION_LESS_THAN(@"9.0"))
     {
         BOOL success = class_addMethod(self.class,
                                        @selector(forceTouchCapability),
